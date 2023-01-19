@@ -13,6 +13,8 @@ const (
 	StripeProvider = "stripe"
 	// PayPalProvider is the string identifier for the PayPal payment provider.
 	PayPalProvider = "paypal"
+	// AdyenProvider is the string identifier for the Adyen payment provider.
+	AdyenProvider = "adyen"
 )
 
 // Provider represents a payment provider that can optionally charge, refund,
